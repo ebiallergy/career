@@ -17,8 +17,7 @@ body {
 
 a {
   color: #337ab7;
-  text-decoration: none;
-  transition: opacity .3s; }
+  text-decoration: none; }
 
 em {
   color: #d00e0e;
@@ -36,11 +35,7 @@ button, input {
   background: none; }
 
 img {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  vertical-align: middle;
-  border-style: none; }
+  vertical-align: middle; }
 
 body, h1, h2, h3, h4, h5, p, ul {
   margin: 0;
@@ -150,7 +145,7 @@ html, body {
       font-size: 3.8vw;
       font-family: "M PLUS 1p", sans-serif;
       line-height: 1;
-      transition: all .2s ease-out; }
+      transition: all .4s ease-out; }
     .main .area-modal .login-input:-ms-input-placeholder {
       color: #b9b9b9; }
     .main .area-modal .login-input::placeholder {
@@ -161,6 +156,7 @@ html, body {
       margin-top: 3vw;
       text-align: center; }
       .main .area-modal .login-btn a {
+        transition: all .3s ease-out;
         display: block;
         background: #ccc;
         color: #fff;
@@ -191,13 +187,9 @@ html, body {
   /*~934*/
   .main .list-arrow li{
     bottom: 3.5vh; } }
-    @media screen and (min-width: 9345x){
-
-  /*935~*/ }
-    @media screen and (min-width: 1281px){
-
-  /*921~*/ }
     @media screen and (min-width: 935px){
+
+  /*935~*/
   .main .list-arrow li{
     top: 50%; }
   .main .list-arrow li a{
@@ -219,3 +211,6 @@ html, body {
     transform: translate(-60%, 30%) rotate(45deg); }
   .main .list-arrow .arrow-right{
     transform: translate(50vh, -50%); } }
+    @media screen and (min-width: 1281px){
+
+  /*921~*/ }
