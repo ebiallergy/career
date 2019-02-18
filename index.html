@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-	<meta name="robots" content="noindex">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>career</title>
-	<link rel="stylesheet" href="./assets/css/master.min.css">
-</head>
+	<head>
+		<meta name="robots" content="noindex">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>career</title>
+		<link rel="stylesheet" href="./assets/css/master.min.css">
+	</head>
 
-<body>
-	<main class="main">
-		<canvas class="stage" id="js-stage"></canvas>
-		<ul class="list-arrow js-listArrow">
-			<li class="arrow arrow-left js-arrow"><a href="#"></a></li>
-			<li class="arrow arrow-right js-arrow"><a href="#"></a></li>
-		</ul>
-		<div class="login-area js-loginArea">
-			<div class="login-area-inner js-loginAreaInner">
-				<p class="text-error js-textError">※パスワードが違います</p>
-				<input type="number" class="btn-skin input js-input" placeholder="パスワードを入力してください" autofocus>
-				<p class="btn-login js-btnLogin btn-login-active"><a href="#" class="btn-skin">ログイン</a></p>
+	<body>
+		<main class="main">
+			<canvas class="stage" id="js-stage"></canvas>
+			<ul class="list-arrow js-listArrow">
+				<li class="arrow arrow-left js-arrow"><a href="#"></a></li>
+				<li class="arrow arrow-right js-arrow"><a href="#"></a></li>
+			</ul>
+			<div class="area-modal js-areaModal">
+				<div class="progressBar js-progressBar"></div>
+				<div class="area-login js-areaLogin">
+					<p class="login-error js-loginError">※パスワードが違います</p>
+					<input type="number" class="btn-skin login-input js-loginInput" placeholder="パスワードを入力してください">
+					<p class="login-btn js-loginBtn"><a href="#" class="btn-skin">ログイン</a></p>
+				</div>
 			</div>
-		</div>
-	</main>
-	<script src="./assets/js/bundle.min.js"></script>
-</body>
+		</main>
+		<script src="./assets/js/bundle.min.js"></script>
+	</body>
 
 </html>
